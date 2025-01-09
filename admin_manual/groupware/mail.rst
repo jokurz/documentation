@@ -127,3 +127,10 @@ multiple days.
 Each sent email will be analyzed by an AI to check whether a reply is expected.
 
 The feature can be enabled through the global :ref:`mail_llm_processing` setting.
+
+Translation
+-----------
+
+.. versionadded:: 4.2
+
+The mail app can optionally provide translations for messages if the `translation API <https://docs.nextcloud.com/server/latest/admin_manual/ai/app_assistant.html#machine-translation>`_ is enabled.
