@@ -34,8 +34,8 @@ Data Backup and Recovery Implications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 One impact of using an object store as Primary Storage is that your data backup strategy 
-needs to incorporate this. **Your data is longer stored on your Nextcloud server, but your 
-files are also no longer accessible by simply bypassing your Nextcloud server and accessing 
+needs to incorporate this. **Your data is no longer stored on your Nextcloud server. In addition, 
+your files are no longer accessible by simply bypassing your Nextcloud server and accessing 
 your object store directly.**
 
 -------------
